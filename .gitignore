@@ -4,4 +4,10 @@ __pycache__/
 
 # Virtual environments
 venv/
+venv_win/
+venv_isolate/
 env/
+
+# App Data
+Gallery/
+*.log

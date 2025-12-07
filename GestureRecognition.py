@@ -23,4 +23,9 @@ def is_index_only(fingers):
     return fingers == [0,1,0,0,0]
 
 def is_rock_sign(fingers):
-    return fingers == [1,1,0,0,1]
+    # User image shows thumb tucked: [0, 1, 0, 0, 1]
+    return fingers == [0, 1, 0, 0, 1]
+
+def is_thumb_up(fingers):
+    # Thumb up, others down: [1, 0, 0, 0, 0]
+    return fingers == [1, 0, 0, 0, 0]
